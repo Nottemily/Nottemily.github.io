@@ -1,0 +1,15 @@
+h1 {
+    color:blue
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+ul#mainNav {
+    list-style-type: none;
+}
+
+img { 
+    width: 40%;
+}
