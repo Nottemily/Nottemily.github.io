@@ -1,15 +1,61 @@
+
+
 body {
-    font-family: "Lato", sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    color: black;
+    line-height: 1.2em;
+    text-align: center;
+    text-transform: none;
+    background-color: lightcyan;
+    background-image: none;
+    background-repeat: no-repeat;
 }
 
 h1 {
-    color:blue
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-size: 3em;
+    color:midnightblue;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+h4 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+a:link {
+    text-decoration: none;
+    color:black;
+}
+
+a:visited {
+    text-decoration: none;
+    color:black;
+}
+
+a:hover {
+    text-decoration: none;
+    color:midnightblue;
 }
 
 ul#mainNav {
     list-style-type: none;
+    text-align: left;
+    line-height: 1.5em;
 }
 
 img { 
     width: 40%;
+    height: auto;
+    padding: 1%;
+}
+
+p {
+   margin-left: 20%; 
+   margin-right: 20%;
 }
