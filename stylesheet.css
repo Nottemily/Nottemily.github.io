@@ -1,46 +1,57 @@
 
 
 body {
-    margin-left: 5%;
-    margin-right: 5%;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: "Special Gothic Expanded One", sans-serif;
     font-size: 1em;
     color: black;
     line-height: 1.2em;
-    text-align: center;
+    text-align: left;
     text-transform: none;
-    background-color: lightcyan;
+    background-color:rgb(255, 255, 255);
     background-image: none;
     background-repeat: no-repeat;
 }
 
+.columns {float:left;} 
+.col-1 {width: 8.33%;} 
+.col-2 {width: 16.66%;} 
+.col-3 {width: 25%;} 
+.col-4 {width: 33.33%;} 
+.col-5 {width: 41.66%;} 
+.col-6 {width: 50%;} 
+.col-7 {width: 58.33%;} 
+.col-8 {width: 66.66%;} 
+.col-9 {width: 75%;}
+
 h1 {
-    font-family: "Special Gothic Expanded One", sans-serif;
-    font-size: 3em;
-    color:midnightblue;
+    font-size: 4em;
+    color: rgb(32, 32, 157);
     text-decoration: none;
     text-transform: capitalize;
 }
 
 h4 {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Lato", sans-serif;
+    font-size: 2em;
     text-align: left;
-    text-transform: uppercase;
+    text-transform: none;
 }
 
 a:link {
     text-decoration: none;
-    color:black;
+    color:rgb(0, 0, 0);
 }
 
 a:visited {
     text-decoration: none;
-    color:black;
+    color:rgb(0, 0, 0);
 }
 
 a:hover {
     text-decoration: none;
-    color:midnightblue;
+    color:rgb(32, 32, 157);
 }
 
 ul#mainNav {
@@ -52,10 +63,28 @@ ul#mainNav {
 img { 
     width: 40%;
     height: auto;
-    padding: 1%;
+}
+
+#wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+#container { 
+    width: 80%; 
+    margin: auto; 
+    position: relative; 
+}
+
+    nav {
+    position: relative; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    background-color: rgb(172, 172, 172);
 }
 
 p {
-   margin-left: 20%; 
-   margin-right: 20%;
+    margin: 5%;
+    text-align: justify;
 }
