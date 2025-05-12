@@ -1,8 +1,8 @@
 
 
 body {
-    margin: 0;
-    padding: 0;
+    width:90%;
+    margin: auto;
     font-family: "Roboto", sans-serif;
     font-size: 1em;
     color: black;
@@ -13,7 +13,7 @@ body {
     background-image: url(/images/P1220936.JPG);
     background-repeat: no-repeat;
     background-position: right center;
-    background-size: 50%;
+    background-size: 60%;
     
 }
 
@@ -30,13 +30,13 @@ body {
 
 h1 {
     font-family: "Libre Caslon Text", serif;
-    font-size: 3em;
+    font-size: 4em;
     color: rgb(5, 5, 63);
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
-    margin: 2%;
-    margin-bottom: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 #subhead {
@@ -44,22 +44,21 @@ h1 {
     text-align: left;
     text-transform: none;
     background-color: rgb(200, 200, 234);
+    border: 2px black;
     width: 30%;
-}
-
-h4 {
-    padding: 5%;
+    padding: 2%;
 }
 
 footer {
     background-color: rgb(200, 200, 234);
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 2%;
 }
 
 a:link {
     text-decoration: none;
     color:rgb(0, 0, 0);
+    padding: 5%;
 }
 
 a:visited {
@@ -72,7 +71,8 @@ a:hover {
     color:rgb(119, 119, 209);
 }
 
-ul#mainNav {
+#mainNav li {
+    display: inline;
     list-style-type: none;
     text-align: left;
     text-transform: uppercase;
@@ -82,12 +82,12 @@ ul#mainNav {
 }
 
 img { 
-    width: 40%;
-    height: auto;
+    margin-bottom: 5%;
+    width: 100%;
 }
 
 #wrapper {
-    width: 60%;
+    width: 90%;
     margin: auto;
 }
 
@@ -97,7 +97,6 @@ img {
     position: relative; 
 }
 
-#para1 {
-    margin: 5%;
+#row {
     text-align: justify;
 }
