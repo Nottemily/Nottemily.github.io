@@ -7,14 +7,64 @@ h1{
     font-size: 4em;
 }
 
+h5 {
+    text-align: justify;
+}
+
 #big9 {
     color: rgb(188, 188, 188);
-    font-size: 14em;
+    letter-spacing: -0.1em;
+    font-size: 40em;
     position: absolute;
-    top: -100px;
+    top: -400px;
+    right: -100px;
+    z-index: -1;
+
+}
+
+#big10 {
+    color: rgb(188, 188, 188);
+    font-size: 30em;
+    position: absolute;
+    top: -200px;
+    right: -380px;
     z-index: -1;
 }
 
 p {
     text-align: justify;
+    font-size: 1.1em;
+    margin-top: 30px;
+}
+
+#resources li {
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+.scroll-watcher {
+    animation-timeline: scroll(y);
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range: 100px 36%;
+}
+
+@keyframes scroll-watcher {
+  to {
+    scale: 1 1;
+  }
+}
+
+
+
+@keyframes fade-in {
+    to {
+      opacity: 1;
+      scale: 1;
+    }
 }
