@@ -1,48 +1,80 @@
 body{
     background-color: rgb(255, 255, 255);
-    background-mage: url(images/largesea.png);
     background-size: 100%;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-position: 0px -200px; 
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 
+@keyframes backgroundtest {
+    0% {background-color: rgb(255, 255, 255);}
+    20% {background-color: rgb(255, 255, 255);}
+    40% {background-color: rgb(0, 0, 0);}
+    60% {background-color: rgb(0, 0, 0);}
+    80% {background-color: rgb(255, 255, 255);}
+    100% {background-color: rgb(255, 255, 255);}
+}
+
 h1{
-    color: rgb(0, 0, 0);
     font-size: 4em;
 }
 
 h5 {
     text-align: justify;
-    color: rgb(0, 0, 0);
+}
+
+
+#graph {
+    position: absolute;
+    left: 150px;
+    top: 650px;
+    width: 90%;
+    z-index: -1;
+}
+
+#bottlecaps {
+    position: absolute;
+    left: 500px;
+    top: 700px;
+    width: 50%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+#bottle {
+    position: absolute;
+    left: -250px;
+    top: 275px;
+    width: 70%;
+    z-index: -1;
 }
 
 #big5 {
-    color: rgb(188, 188, 188);
-    font-size: 50em;
+    color: rgb(161, 180, 198);
+    font-size: 60em;
     position: absolute;
-    top: -400px;
-    right: 100px;
+    top: -300px;
+    right: 0px;
     z-index: -1;
 }
 
 #big9 {
-    color: rgb(188, 188, 188);
-    letter-spacing: -0.1em;
-    font-size: 40em;
+    color: rgb(161, 180, 198);
+    letter-spacing: -0.15em;
+    font-size: 50em;
     position: absolute;
-    top: -400px;
-    right: -100px;
+    top: -100px;
+    right: 00px;
     z-index: -1;
 }
 
 #big10 {
-    color: rgb(188, 188, 188);
-    font-size: 30em;
+    color: rgb(161, 180, 198);
+    letter-spacing: -0.08em;
+    font-size: 35em;
     position: absolute;
-    top: -200px;
-    right: -380px;
+    top: 200px;
+    right: -350px;
     z-index: -1;
 }
 
@@ -50,7 +82,6 @@ p {
     text-align: justify;
     font-size: 1.1em;
     margin-top: 30px;
-    color: rgb(0, 0, 0);
 }
 
 #resources li {
@@ -86,7 +117,7 @@ background-size cover
 
 .scroll-watcher {
     animation-timeline: scroll(y);
-    animation: fade-in linear forwards;
+    animation-name: fade-in;
     animation-timeline: view();
     animation-range: 100px 36%;
 }
@@ -100,6 +131,5 @@ background-size cover
 @keyframes fade-in {
     to {
       opacity: 1;
-      transform: scale(1);
     }
 }
